@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Face Verification</string>
+    <string name="app_name">Face Identification</string>
 
     <string name="default_nothing">Nothing</string>
     <string name="action_settings">Settings</string>
