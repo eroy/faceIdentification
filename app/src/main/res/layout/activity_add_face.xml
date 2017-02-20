@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_face"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    tools:context="com.example.zhao.faceverification.activity.AddFaceActivity">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tvText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_face_text"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/tap_to_add_image"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:src="@drawable/ic_face_black_48dp"
+        android:layout_below="@+id/tvText"
+        android:layout_centerHorizontal="true" />
+
+
+    <FrameLayout
+        android:layout_below="@id/tap_to_add_image"
+        android:layout_width="match_parent"
+        android:layout_height="61dp">
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+
+
+    </FrameLayout>
+
+</RelativeLayout>
